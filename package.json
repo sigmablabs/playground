@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "polymarket": "bun run src/polymarket.ts"
+  },
   "dependencies": {
     "@polymarket/clob-client": "^4.21.0",
     "ccxt": "^4.4.69",
